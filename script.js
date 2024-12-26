@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tristanVideo = document.getElementById('tristan-video');
 
     // Array of video sources (you'll need to replace these with your actual video paths)
-    const videos = ['videos/video1.mp4', 'videos/video2.mp4'];
+    const videos = ['videos/video1.mp4', 'videos/video2.mp4', 'videos/video3.mp4', 'videos/video4.mp4', 'videos/video5.mp4'];
     let currentVideoIndex = 0;
 
     function showProgress() {
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 progressContainer.classList.add('hidden');
                 showVideo();
             } else {
-                width += (100 / 70); // 70 increments over 7 seconds
+                width += (100 / 50); // 50 increments over 5 seconds
                 progress.style.width = width + '%';
             }
         }, 100);
