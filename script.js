@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tristanVideo = document.getElementById('tristan-video');
 
     // Array of video sources (you'll need to replace these with your actual video paths)
-    const videos = ['videos/video1.mp4', 'videos/video2.mp4', 'videos/video3.mp4', 'videos/video4.mp4', 'videos/video5.mp4'];
+    const videos = ['videos/video1.mp4', 'videos/video2.mp4', 'videos/video3.mp4', 'videos/video4.mp4', 'videos/video5.mp4', 'videos/video6.mp4', 'videos/video7.mp4', 'videos/video8.mp4', 'videos/video9.mp4']
     let currentVideoIndex = 0;
 
     function showProgress() {
