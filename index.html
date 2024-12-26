@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tristan.ai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>tristan.ai</h1>
+        </header>
+        
+        <main>
+            <div id="initial-content" class="content-section">
+                <div class="image-grid">
+                    <img src="images/image1.png" alt="Tristan AI Image 1" class="feature-image">
+                    <img src="images/image2.png" alt="Tristan AI Image 2" class="feature-image">
+                </div>
+                <button id="generate-btn" class="apple-button">Generate Tristan</button>
+            </div>
+
+            <div id="video-content" class="content-section hidden">
+                <video id="tristan-video" controls class="feature-video">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+                <button id="generate-another-btn" class="apple-button">Generate Another</button>
+            </div>
+
+            <div id="progress-container" class="hidden">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
